@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteTargetsManager">
+    <targets>
+      <target name="jgd@Pasak8s-20:22" type="ssh/sftp" uuid="f86f8d8c-cd44-4e1b-a5b1-84fd4ee9a98f">
+        <config>
+          <option name="projectRootOnTarget" value="$PROJECT_DIR$/../../../jgd/SeaweedFS" />
+          <option name="serverName" value="jgd@Pasak8s-20:22 agent" />
+        </config>
+        <ContributedStateBase type="JavaLanguageRuntime">
+          <config>
+            <option name="homePath" value="/data1/jgd/software/jdk1.8.0_441" />
+            <option name="javaVersionString" value="1.8.0" />
+          </config>
+        </ContributedStateBase>
+      </target>
+    </targets>
+  </component>
+</project>
