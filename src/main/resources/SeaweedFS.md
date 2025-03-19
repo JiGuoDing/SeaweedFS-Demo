@@ -150,4 +150,98 @@ Successfully downloaded tpc-ds-3G.zip from test-bucket1 Transferring time taken:
 | 1.33  | 1.776 | 0.665 |
 | 1.304 | 1.825 | 0.642 |
 
-#### 上传多个文件（）（机械硬盘）
+#### 上传多个文件（2000个8.2MB的seis文件）（固态硬盘）（4个线程并行）
+
+Transferring time taken: 26.825 s
+Transferring time taken: 26.302 s
+Transferring time taken: 26.194 s
+
+| real   | user    | sys    |
+|--------|---------|--------|
+| 27.332 | 1m0.007 | 18.369 |
+| 26.786 | 58.580  | 17.223 |
+| 26.676 | 59.282  | 17.129 |
+
+#### 上传多个文件（2000个8.2MB的seis文件）（机械硬盘）
+
+Transferring time taken: 25.541 s
+Transferring time taken: 26.872 s
+Transferring time taken: 26.152 s
+
+| real   | user   | sys    |
+|--------|--------|--------|
+| 26.041 | 58.526 | 15.799 |
+| 27.348 | 58.693 | 16.826 |
+| 26.637 | 58.985 | 15.972 |
+
+#### 下载多个文件（2000个8.2MB的seis文件）（固态硬盘）
+
+Transferring time taken: 18.349 s
+Transferring time taken: 18.717 s
+Transferring time taken: 18.644 s
+
+| real   | user   | sys   |
+|--------|--------|-------|
+| 18.828 | 10.990 | 9.402 |
+| 19.192 | 10.508 | 9.438 |
+| 19.135 | 10.970 | 9.564 |
+
+#### 下载多个文件（2000个8.2MB的seis文件）（机械硬盘）
+
+Transferring time taken: 20.422 s
+Transferring time taken: 20.148 s
+Transferring time taken: 20.182 s
+
+| real   | user   | sys    |
+|--------|--------|--------|
+| 20.910 | 10.974 | 12.867 |
+| 20.635 | 10.886 | 12.693 |
+| 20.664 | 10.934 | 12.857 |
+
+#### 上传多个文件（5000个11MB的seis文件）（固态硬盘）
+
+Transferring time taken: 75.095 s
+Transferring time taken: 76.325 s
+Transferring time taken: 76.325 s
+
+| real   | user    | sys    |
+|--------|---------|--------|
+| 75.615 | 183.319 | 49.116 |
+| 76.822 | 181.780 | 52.388 |
+| 76.855 | 182.577 | 49.816 |
+
+#### 上传多个文件（5000个11MB的seis文件）（机械硬盘）
+
+Transferring time taken: 233.943 s
+Transferring time taken: 77.661 s
+Transferring time taken: 74.007 s
+
+| real    | user    | sys    |
+|---------|---------|--------|
+| 234.516 | 179.547 | 52.607 |
+| 78.547  | 182.414 | 49.349 |
+| 74.537  | 183.359 | 48.863 |
+
+#### 下载多个文件（5000个11MB的seis文件）（固态硬盘）
+
+Transferring time taken: 59.321 s
+Transferring time taken: 60.438 s
+Transferring time taken: 59.875 s
+
+| real   | user   | sys    |
+|--------|--------|--------|
+| 59.745 | 28.032 | 29.992 |
+| 60.769 | 26.517 | 30.044 |
+| 60.161 | 27.051 | 30.313 |
+
+#### 下载多个文件（5000个11MB的seis文件）（机械硬盘）
+
+Transferring time taken: 67.239 s
+Transferring time taken: 65.234 s
+Transferring time taken: 65.629 s
+
+| real   | user   | sys    |
+|--------|--------|--------|
+| 67.742 | 25.875 | 39.633 |
+| 65.731 | 25.186 | 39.360 |
+| 66.115 | 25.777 | 39.669 |
